@@ -1,0 +1,22 @@
+spark session - Boiler plate code 
+load sample data
+schema for sample_df
+replace null 
+rename a column name
+add a new column 
+use selectExpr 
+get no. of partitions 
+repartition the file 
+create temp table
+write it back to disk(hdfs) - 
+  use any one compression 
+  use bucket by / partition by while writing 
+
+read orders and customer 
+do separate distinct count 
+join orders and customers 
+
+
+Spark-submit query:
+
+spark3-submit \--master yarn \--num-executors 3 \--executor-cores 4 \--executor-memory 2G \--conf spark.dynamicAllocation.enabled=false \ prog1c.py
